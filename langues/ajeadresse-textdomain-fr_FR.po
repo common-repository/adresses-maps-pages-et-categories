@@ -1,0 +1,209 @@
+# Copyright (C) 2015 Adresses Maps to Post and Pages
+# This file is distributed under the same license as the Adresses Maps to Post and Pages package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Adresses Maps to Post and Pages 2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/adresses-maps-"
+"pages-et-categories\n"
+"POT-Creation-Date: 2015-10-27 16:25+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-10-27 15:35+0100\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+
+#: metabox.php:5 metabox.php:6
+msgid "Associated address"
+msgstr "Adresse associée"
+
+#: metabox.php:93
+msgid "Address found"
+msgstr "Adresse trouvée"
+
+#: metabox.php:101
+msgid "Use a new address :"
+msgstr "Utiliser une nouvelle adresse :"
+
+#: metabox.php:116 metabox.php:125
+msgid "Use"
+msgstr "Utiliser"
+
+#: metabox.php:145
+msgid "Select a search method of address"
+msgstr "Choisir une méthode de recherche d'adresse"
+
+#: metabox.php:147
+msgid "Give an address"
+msgstr "Donner une adresse"
+
+#: metabox.php:149
+msgid "Give Latitude and Longitude"
+msgstr "Donner une Latitude et une Longitude"
+
+#: metabox.php:155
+msgid "Your address"
+msgstr "Votre adresse"
+
+#: metabox.php:162 reglages/Menu_reglage/liste-adresse.php:50
+#: reglages/Menu_reglage/modifAdresse.php:85
+msgid "Latitude"
+msgstr "Latitude"
+
+#: metabox.php:164 reglages/Menu_reglage/liste-adresse.php:51
+#: reglages/Menu_reglage/modifAdresse.php:89
+msgid "Longitude"
+msgstr "Longitude"
+
+#: metabox.php:171
+msgid "Title to display"
+msgstr "Titre à afficher"
+
+#: metabox.php:176
+msgid "Add to a category ?"
+msgstr "Ajouter à une catégorie ?"
+
+#: metabox.php:180
+msgid "Previous categories used :"
+msgstr "Catégories déjà utilisées :"
+
+#: metabox.php:190
+msgid "Color default icon"
+msgstr "Couleur de l'icone par défaut"
+
+#: metabox.php:191 metabox.php:192 metabox.php:193 metabox.php:194
+#: metabox.php:195 metabox.php:196 metabox.php:197
+msgid "Color of the icon"
+msgstr "Couleur de l'icone"
+
+#: metabox.php:202
+msgid "Description Address"
+msgstr "Description de l'adresse"
+
+#: metabox.php:204
+msgid "HTML formatting is possible"
+msgstr "Le formatage HTML est possible"
+
+#: metabox.php:207
+msgid ""
+"Place the card into the page by inserting this shortcode to the desired "
+"position"
+msgstr ""
+"Placez la carte dans la page en insérant ce bout de code(shortcode) à "
+"l'endroit souhaité"
+
+#: metabox.php:210
+msgid "To view the card with the address of all pages :"
+msgstr "Pour afficher la carte contenant l'adresse de toutes les pages :"
+
+#: metabox.php:213
+msgid "To view the card with the address of all designated categories :"
+msgstr ""
+"Pour afficher la carte contenant l'adresse de toutes les catégories "
+"désignées :"
+
+#: metabox.php:215
+msgid "The code can contain one or more categories."
+msgstr "Le code peut contenir une ou plusieurs catégories."
+
+#: reglages/Menu_reglage/index.php:2 reglages/Menu_reglage/reglages.php:2
+msgid "AdresseMaps plugins"
+msgstr "Plugins AdresseMaps"
+
+#: reglages/Menu_reglage/index.php:4
+msgid ""
+"Thank you for choosing AdresseMaps to your address associations on your "
+"pages and articles."
+msgstr ""
+"Merci d'avoir choisi AdresseMaps pour vos associations d'adresses à vos "
+"pages et articles."
+
+#: reglages/Menu_reglage/index.php:13
+msgid "Settings"
+msgstr "Réglages"
+
+#: reglages/Menu_reglage/index.php:15
+msgid "List of addresses"
+msgstr "Liste de vos adresses"
+
+#: reglages/Menu_reglage/liste-adresse.php:2
+msgid "Your addresses"
+msgstr "Vos adresses"
+
+#: reglages/Menu_reglage/liste-adresse.php:4
+msgid ""
+"You have the choice of pre-populate an address to easily associate with your "
+"articles or your pages."
+msgstr ""
+"Vous avez le choix de pré-remplir une adresse afin de l'associer facilement "
+"à vos articles ou vos pages."
+
+#: reglages/Menu_reglage/liste-adresse.php:48
+#: reglages/Menu_reglage/modifAdresse.php:77
+msgid "Title"
+msgstr "Titre"
+
+#: reglages/Menu_reglage/liste-adresse.php:49
+#: reglages/Menu_reglage/modifAdresse.php:81
+msgid "Adresse"
+msgstr "Adresse"
+
+#: reglages/Menu_reglage/liste-adresse.php:52
+msgid "Delete"
+msgstr "Supprimer"
+
+#: reglages/Menu_reglage/liste-adresse.php:69
+msgid "Add an address"
+msgstr "Ajouter une adresse"
+
+#: reglages/Menu_reglage/liste-adresse.php:73
+msgid "Do you really want to delete this address ?"
+msgstr "Voulez-vous vraiment supprimer cette adresse ?"
+
+#: reglages/Menu_reglage/modifAdresse.php:65
+msgid "Change Address"
+msgstr "Modifier l'adresse"
+
+#: reglages/Menu_reglage/modifAdresse.php:66
+msgid ""
+"You can choose complete this is right for you, the addresses being created "
+"<strong>only for a pre-filling</strong>."
+msgstr ""
+"Vous avez le choix de remplir ce qui vous convient, les adresses étant crées "
+"<strong>uniquement pour un pré-remplissage</strong>."
+
+#: reglages/Menu_reglage/modifAdresse.php:96
+msgid "Edit"
+msgstr "Modifier"
+
+#: reglages/Menu_reglage/reglages.php:33
+msgid "Navigator key"
+msgstr "Clé de navigateur"
+
+#: reglages/Menu_reglage/reglages.php:36
+msgid "Server key"
+msgstr "Clé de serveur"
+
+#. Plugin Name of the plugin/theme
+msgid "Adresses Maps to Post and Pages"
+msgstr "Adresses Maps pour les Articles et les Pages"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.a-j-evolution.com/"
+msgstr "http://www.a-j-evolution.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Link your pages to a postal address and a category and find them inside a "
+"large Map that you can modify to your care."
+msgstr ""
+"Associez vos pages à une adresse postale et une catégorie et retrouvez-les à "
+"l'intérieur d'une grande Map que vous pouvez modifier à vos soins."
+
+#. Author of the plugin/theme
+msgid "JANSSENS Arthur"
+msgstr "Arthur JANSSENS"

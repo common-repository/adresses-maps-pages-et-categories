@@ -1,0 +1,52 @@
+<?php
+if ( get_option( 'cleAPIGoogleMaps' ) !== false ) {
+?><script type="text/javascript" src="//maps.googleapis.com/maps/api/js?sensor=false&key=<?php echo get_option('cleAPIGoogleMaps');?>"></script><?php
+}else{
+  ?><script type="text/javascript" src="//maps.googleapis.com/maps/api/js?sensor=false"></script><?php
+}
+?>
+<script type="text/javascript">
+	var ajeadresseCarte;
+	var zoneMarqueurs = new google.maps.LatLngBounds();
+	function initialisation() {
+		var optionsCarte = {
+			zoom: 80,
+			center: new google.maps.LatLng( 47.389982, 0.688877 ),
+			mapTypeId: google.maps.MapTypeId.ROADMAP,
+			scrollwheel: false
+		}
+		ajeadresseCarte = new google.maps.Map( document.getElementById("ajeadresse-carte"), optionsCarte );
+		for( var i = 0, I = tableauMarqueurs.length; i < I; i++ ) {
+			ajouteMarqueur( tableauMarqueurs[i] );
+		}
+		ajeadresseCarte.fitBounds( zoneMarqueurs );
+	}
+	function ajouteMarqueur( informations ) {
+		var latitude = informations[0];
+		var longitude = informations[1];
+		var titre = informations[2];
+		var contenu = informations[3];
+		var maxLargeur = informations[4];
+		var couleur = informations[5];
+		var titre2 = informations[6];
+		var optionsMarqueur = {
+			map: ajeadresseCarte,
+			position: new google.maps.LatLng( latitude, longitude ),
+			<?php echo 'icon: "'.URL_ADRESSEMAPS.'places/_"+couleur+".png",';?>
+			title: titre2
+		};
+		var contentString = contenu;
+		var infowindow = new google.maps.InfoWindow({
+			content: contentString,
+		    maxWidth: maxLargeur
+		});
+		var marqueur = new google.maps.Marker( optionsMarqueur );
+		marqueur.addListener('click', function() {
+		    infowindow.open(ajeadresseCarte, marqueur);
+		});
+		zoneMarqueurs.extend( marqueur.getPosition() );
+	}
+	google.maps.event.addDomListener( window, 'load', initialisation );
+</script>
+
+<div id="ajeadresse-carte"></div>
